@@ -1,5 +1,10 @@
 # goftest
 
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/insightsengineering/goftest/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/insightsengineering/goftest/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/insightsengineering/goftest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/insightsengineering/goftest/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/insightsengineering/goftest/graph/badge.svg)](https://app.codecov.io/gh/insightsengineering/goftest)
+<!-- badges: end -->
+
 This repository contains the sources for the
 contributed `R` package `goftest`, which performs
 goodness-of-fit tests.
@@ -19,11 +24,11 @@ This package is free open source under the GNU Public Licence GPL 2|3.
 The current official release of `goftest` is available
 on [CRAN](http://cran.r-project.org/web/packages/goftest)
 and can be downloaded and installed automatically
-using the R command `install.packages`. 
+using the R command `install.packages`.
 
 The code in this repository is the development version,
 which may be newer than the official release.
-The easiest way to install the development version of `goftest` 
+The easiest way to install the development version of `goftest`
 from github is through the `remotes` package:
 
 ```R
@@ -37,10 +42,10 @@ If you don't have `remotes` installed you should first run
 install.packages('remotes')
 ```
 
-## Bug reports 
+## Bug reports
 
-Users of `goftest` are encouraged to report bugs here 
-(go to *issues* in the menu above, 
+Users of `goftest` are encouraged to report bugs here
+(go to *issues* in the menu above,
 and press *new issue* to start a new bug report
 or feature request).
 

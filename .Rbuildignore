@@ -1,3 +1,5 @@
+^renv$
+^renv\.lock$
 README.md
 .git
 .gitignore
@@ -8,3 +10,5 @@ README.md
 \.gcda$
 \.gcno$
 ^appveyor\.yml$
+^\.github$
+^codecov\.yml$
