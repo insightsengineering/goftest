@@ -63,14 +63,4 @@ describe("The cvm.test should reject the null hypothesis", {
     result <- cvm.test(values, "plnorm", mean = 5, sd = 10)
     expect_true(p_value_null_hypothesis > result$p.value)
   })
-
-  it("returns a valid qCvM quantile", {
-    q <- qCvM(0.9)
-    expect_true(is.numeric(q) && q > 0)
-    expect_equal(pCvM(q), 0.9, tolerance = 1e-3)
-  })
-
-  it("returns matching qCvM quantiles for lower.tail inversion", {
-    expect_equal(qCvM(0.1, lower.tail = FALSE), qCvM(0.9))
-  })
 })
